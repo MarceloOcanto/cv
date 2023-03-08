@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  background-color: antiquewhite;
+}
+
+/* Dos columnas */
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px;
+}
+
+/* Columna de la izquierda */
+.left {
+  width: 25%;
+}
+
+/* Columna de la derecha */
+.right {
+  width: 75%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.pagina_curri_1 {
+
+    background-color: bisque;
+}
+.pagina_curri_2 {
+
+    background-color: blanchedalmond;
+    
+}
+h2 {
+    font-family: 'Roboto Slab', serif;
+    width: 300px; height: 50px;
+    font-weight: normal;
+    color:black;
+    text-align: left;
+    text-indent: 5%;
+    padding: 1px;
+    margin:1px;
+}
+
+h2.titulo {
+     font-weight: lighter; font-size: 2em;
+}
+
+h3 {
+   
+    width: 600px; height: 35px;
+    font-family: 'Scope One', serif;
+    font-style: italic;
+    font-size: 1.21em;
+    color:darkgrey;
+    text-align: left;
+    padding: 1px;
+    margin: 1px;
+}
+
+h4 {
+
+    font-family: 'Scope One', serif;
+    color: darkgrey;
+    padding: 1px;
+    margin: 1px;
+    text-align: left;
+}
+
+h5 {
+
+    font-family: 'Courier New', Courier, monospace;
+    color: dimgrey;
+    padding: 1px;
+    margin: 1px;
+    text-align: left;
+}
+
+.descripcion {  /*Título - Puesto */
+   
+    font-family: 'Bona Nova', serif;
+    /*width: 698px; height: 18px;*/
+    text-align: left;
+    color:black;
+    padding: 1px;
+    margin: 1px;
+}
+
+.item_barra {
+    font-family: 'Scope One', serif;
+    text-align: center;
+    padding:1px 2px;float:left;width:auto;border:none;display:block;outline:0;
+    display:block;width:100%;
+    text-indent: 7%; 
+}
