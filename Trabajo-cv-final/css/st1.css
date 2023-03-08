@@ -1,0 +1,100 @@
+/** Estilo 1 para página de CV */
+.pagina_curri_1 {
+
+    background-color: bisque;
+}
+.pagina_curri_2 {
+
+    background-color: blanchedalmond;
+    
+}
+h2 {
+    font-family: 'Roboto Slab', serif;
+    width: 300px; height: 50px;
+    font-weight: normal;
+    color:black;
+    text-align: left;
+    text-indent: 5%;
+    padding: 1px;
+    margin:1px;
+}
+
+h2.titulo {
+     font-weight: lighter; font-size: 2em;
+}
+
+h3 {
+   
+    width: 600px; height: 35px;
+    font-family: 'Scope One', serif;
+    font-style: italic;
+    font-size: 1.21em;
+    color:darkgrey;
+    text-align: left;
+    padding: 1px;
+    margin: 1px;
+}
+
+h4 {
+
+    font-family: 'Scope One', serif;
+    color: darkgrey;
+    padding: 1px;
+    margin: 1px;
+    text-align: left;
+}
+
+h5 {
+
+    font-family: 'Courier New', Courier, monospace;
+    color: dimgrey;
+    padding: 1px;
+    margin: 1px;
+    text-align: left;
+}
+
+.descripcion {  /*Título - Puesto */
+   
+    font-family: 'Bona Nova', serif;
+    /*width: 698px; height: 18px;*/
+    text-align: left;
+    color:black;
+    padding: 1px;
+    margin: 1px;
+}
+
+.sidebar_gris {
+/*width: 100px; height: 720px;
+background-color: #f1f1f1!important;
+text-align: left; */
+float: left;
+font-family: 'Scope One', serif;
+height:100%;width: 180px;px;background-color:#fff;position:fixed!important;z-index:1;overflow:auto;
+color:#000!important;background-color:#f1f1f1!important;
+width: 180px;%;text-align:left;padding: 1px 2px;
+width:25%;
+}
+
+.sidebar_naranjita {
+/*width: 100px; height: 720px;
+background-color: #f1f1f1!important;
+text-align: left; 
+*/
+/*
+font-family: 'Scope One', serif;
+height:100%;width: 180px;px;background-color:#fff;position:fixed!important;z-index:1;overflow:auto;
+color:#000!important;background-color:#f1f1f1!important;
+width: 180px;%;text-align:left;padding: 1px 2px;
+*/
+float: left;
+margin-left:30%;
+width:75%;
+}
+
+.item_barra {
+    font-family: 'Scope One', serif;
+    text-align: center;
+    padding:1px 2px;float:left;width:auto;border:none;display:block;outline:0;
+    display:block;width:100%;
+    text-indent: 7%; 
+}
